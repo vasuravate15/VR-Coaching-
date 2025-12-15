@@ -1,0 +1,260 @@
+/* BASIC RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+  color: #222;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #0b3c5d;
+  color: white;
+}
+
+/* LOGO */
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* MENU ICON */
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero {
+  padding: 40px 20px;
+  text-align: center;
+  background: #f4f6f8;
+}
+
+.hero h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #0b3c5d;
+}
+
+.hero p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #ff8c00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+/* ABOUT SECTION */
+.about {
+  padding: 35px 20px;
+  background: #ffffff;
+}
+
+.about h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #0b3c5d;
+  text-align: center;
+}
+
+.about p {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+/* COURSES SECTION */
+.courses {
+  padding: 35px 20px;
+  background: #f4f6f8;
+}
+
+.courses h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #0b3c5d;
+  text-align: center;
+}
+
+.course-box {
+  background: white;
+  padding: 18px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.course-box h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #ff8c00;
+}
+
+.course-box p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* WHY CHOOSE US */
+.why-us {
+  padding: 35px 20px;
+  background: #ffffff;
+}
+
+.why-us h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #0b3c5d;
+  text-align: center;
+}
+
+.why-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-us li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* BENEFITS SECTION */
+.benefits {
+  padding: 35px 20px;
+  background: #f4f6f8;
+}
+
+.benefits h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #0b3c5d;
+  text-align: center;
+}
+
+.benefit-box {
+  background: white;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* CONTACT SECTION */
+.contact {
+  padding: 35px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.contact h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #0b3c5d;
+}
+
+.contact p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.contact-box {
+  background: #f4f6f8;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* WHATSAPP FLOAT BUTTON */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  font-size: 26px;
+  padding: 14px 16px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(37, 211, 102, 0.7);
+  animation: glow 1.5s infinite;
+  z-index: 1000;
+}
+
+/* GLOW ANIMATION */
+@keyframes glow {
+  0% { box-shadow: 0 0 5px #25d366; }
+  50% { box-shadow: 0 0 20px #25d366; }
+  100% { box-shadow: 0 0 5px #25d366; }
+}
+
+.contact a {
+  color: #0b3c5d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+  display: none;
+  background: #0b3c5d;
+  text-align: center;
+}
+
+.mobile-menu a {
+  display: block;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.mobile-menu a:hover {
+  background: #08304a;
+}
+/* FOOTER */
+.footer {
+  background: #0b3c5d;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 13px;
+}
